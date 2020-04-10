@@ -68,6 +68,7 @@ export class Timer extends Component {
         if (this.state.minute === 60) {
             this.setState({ hour: this.state.hour + 1, minute: 0 });
         }
+        
     }
 
     _renderItem = ({ item }) => (
